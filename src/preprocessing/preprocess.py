@@ -4,10 +4,6 @@ import numpy as np
 from sklearn.model_selection import train_test_split
 
 
-# ============================================================
-# 1. Incarcare
-# ============================================================
-
 def load_raw_images(raw_path="data/raw", img_size=(48, 48)):
     """
     Încarcă imaginile brute din data/raw/
@@ -45,9 +41,7 @@ def load_raw_images(raw_path="data/raw", img_size=(48, 48)):
 
 
 
-# ============================================================
-# 2. Normalizare  (0-255 → 0-1)
-# ============================================================
+
 
 def normalize(images):
     """
@@ -59,9 +53,7 @@ def normalize(images):
 
 
 
-# ============================================================
-# 3. Împărțirea datasetului în train/val/test
-# ============================================================
+
 
 def split_data(images, labels):
     """
@@ -95,9 +87,8 @@ def split_data(images, labels):
 
 
 
-# ============================================================
-# 4. Salvarea imaginilor procesate în foldere
-# ============================================================
+
+
 
 def save_dataset(images, labels, out_dir):
     """
@@ -114,13 +105,11 @@ def save_dataset(images, labels, out_dir):
 
         Image.fromarray((img * 255).astype("uint8")).save(img_path)
 
-    print(f"[INFO] Salvate imagini în {out_dir}")
+    print(f"[INFO] Salvare imagini în {out_dir}")
 
 
 
-# ============================================================
-# 5. MAIN – rulează toată preprocesarea
-# ============================================================
+
 
 if __name__ == "__main__":
     raw_images, raw_labels = load_raw_images("data/raw")
@@ -132,4 +121,4 @@ if __name__ == "__main__":
     save_dataset(X_val, y_val, "data/validation")
     save_dataset(X_test, y_test, "data/test")
 
-    print("\n[INFO] Preprocesare finalizată cu succes!")
+    print("\n[INFO] Preprocesare finalizata cu succes!")
