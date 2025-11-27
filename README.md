@@ -15,7 +15,6 @@ SIRSC/
 ├── config/
 └── requirements.txt
 
-
 # Descrierea Setului de Date
 
 ## Sursa datelor
