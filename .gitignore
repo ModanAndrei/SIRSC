@@ -1,0 +1,14 @@
+@"
+.venv/
+__pycache__/
+*.pyc
+.idea/
+*.log
+
+data/raw/
+data/generated/
+data/organized/
+data/processed/
+
+runs/
+"@ | Out-File -Encoding utf8 .gitignore

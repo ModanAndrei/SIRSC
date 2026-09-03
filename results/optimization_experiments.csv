@@ -1,0 +1,6 @@
+Exp#,Modificare fata de Baseline,Accuracy,F1-score,Timp antrenare,Observatii
+Baseline,"Configurația inițială (LR 0.001, Batch 16)",0.9473,0.9216,45 min,Punctul de plecare - YOLOv11n antrenat pe subsetul de 5%
+Exp 1,Am scăzut LR la 0.0005,0.9512,0.9284,48 min,"Se învață mai greu, dar rezultatul e un pic mai stabil"
+Exp 2,Am mărit Batch size la 32,0.9385,0.9105,38 min,"Merge mai repede antrenarea, dar am pierdut un pic la precizie"
+Exp 3,Am mărit rezoluția la 128px,0.9654,0.9412,75 min,Se văd mult mai bine cifrele de pe semne acum
+Exp 4,Am adăugat Blur și Noise în date,0.9721,0.9534,80 min,Cel mai bun model! E mult mai robust la imagini imperfecte

@@ -1,0 +1,17 @@
+model: yolo11n.yaml
+pretrained: false
+device: cpu
+amp: false
+epochs: 20
+batch_size: 16
+imgsz: 96
+fraction: 0.050
+patience: 0
+optimizer: AdamW
+learning_rate: 0.001
+scheduler: cosine
+degrees: 5.0
+perspective: 0.001
+shear: 0.1
+lighting_augmentation: hsv_h=0.015, hsv_s=0.7, hsv_v=0.4
+advanced_aug: mosaic=1.0, mixup=0.1

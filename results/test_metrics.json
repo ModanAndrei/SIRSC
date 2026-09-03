@@ -1,0 +1,10 @@
+{
+  "test_samples": 930,
+  "test_accuracy": 0.9473118279569892,
+  "test_f1_macro": 0.9216272604409952,
+  "test_precision_macro": 0.9377846120062636,
+  "test_recall_macro": 0.9301481481481482,
+  "confidence_threshold": 0.25,
+  "imgsz": 64,
+  "unmatched_predictions": 0
+}

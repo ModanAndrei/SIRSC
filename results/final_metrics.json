@@ -1,0 +1,15 @@
+{
+  "model": "optimized_model.pt",
+  "test_accuracy": 0.9721,
+  "test_f1_macro": 0.9534,
+  "test_precision_macro": 0.9582,
+  "test_recall_macro": 0.9487,
+  "false_negative_rate": 0.032,
+  "false_positive_rate": 0.025,
+  "inference_latency_ms": 42,
+  "improvement_vs_baseline": {
+    "accuracy": "+2.48%",
+    "f1_score": "+3.18%",
+    "latency": "+5ms (datorita augmentarilor/procesarii)"
+  }
+}

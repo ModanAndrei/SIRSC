@@ -1,0 +1,37 @@
+{
+  "seed": 2026,
+  "original_to_yolo": {
+    "0": 0,
+    "5": 1,
+    "11": 2,
+    "14": 3,
+    "17": 4,
+    "20": 5,
+    "24": 6,
+    "27": 7,
+    "28": 8,
+    "30": 9,
+    "31": 10,
+    "32": 11,
+    "34": 12,
+    "36": 13,
+    "37": 14
+  },
+  "names": [
+    "Limita de viteza 20 km/h",
+    "Limita de viteza 80 km/h",
+    "Intersectie prioritara",
+    "Stop",
+    "Acces interzis",
+    "Curba periculoasa la dreapta",
+    "Drum ingustat",
+    "Trecere pentru pietoni",
+    "Copii in traversare",
+    "Gheata sau zapada",
+    "Animale salbatice",
+    "Sfarsitul restrictiei de viteza",
+    "Obligatie la stanga",
+    "Obligatie inainte sau la dreapta",
+    "Obligatie inainte sau la stanga"
+  ]
+}
