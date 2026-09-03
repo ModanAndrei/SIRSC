@@ -28,5 +28,3 @@ streamlit run src/app/app.py
 2. [Etapa 5 - Antrenare model](./docs/etapa5_antrenare_model.md)
 3. [Etapa 6 - Optimizare și Concluzii](./docs/etapa6_optimizare_concluzii.md)
 
----
-Pentru detalii complete, consultați fișierul de predare menționat mai sus.
